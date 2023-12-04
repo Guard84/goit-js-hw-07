@@ -11,6 +11,7 @@ const loginForm = document.querySelector('.login-form');
 
     if (!emailValue || !passwordValue) {
       alert('All form fields must be filled in');
+      return;
     }
 
     const formData = {
